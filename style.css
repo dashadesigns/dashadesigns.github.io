@@ -3,16 +3,20 @@
     font-weight: 900;
     font-style: normal;
 }
+body { 
+    padding: 0; 
+    margin: 0; 
+}
 
 .banner{
-    width:100%;
+    width:auto;
     height:100vh;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(better18.png);
     background-size:cover;
     background-position: center;
 }
 .banner2{
-    width:100%;
+    width:auto;
     height:100vh;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(better18.png);
     background-size:cover;
@@ -33,6 +37,7 @@
     float:left;
     width: 200px;
     overflow: hidden;
+    margin-left: 10vh;
 }
 .navbar ul li{
     float:right;
@@ -78,4 +83,13 @@
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+}
+button{
+  
+ background-size: contain;
+  cursor: pointer;
+  width: 2vh;
+  height: 20vh;
+  border: none;
+}
 }

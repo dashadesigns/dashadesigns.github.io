@@ -1,0 +1,83 @@
+*{
+    font-family: louvette-display,serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:auto;
+    padding: inherit;
+}
+
+.banner{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(better18.png);
+    background-size:cover;
+    background-position: center;
+}
+.banner2{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(better18.png);
+    background-size:cover;
+    background-position: center;
+}
+.navbar{
+    float: right;
+    width: 100%;
+    font-size: 130%;
+    padding: 11px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    
+
+}
+.logo{
+    float:left;
+    width: 200px;
+    overflow: hidden;
+}
+.navbar ul li{
+    float:right;
+    padding-top: auto;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px ;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width:0%;
+    background: #ff0054;
+    position: absolute;
+    left: 0;
+    bottom: -.5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}

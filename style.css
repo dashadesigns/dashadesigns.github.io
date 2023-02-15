@@ -26,6 +26,12 @@ body {
     background-position: center;
 }
 
+.photo {
+    border-radius: 50%;
+    width: 20vh;
+    align-content: center;
+}
+
 .navbar {
     float: right;
     width: 100%;
